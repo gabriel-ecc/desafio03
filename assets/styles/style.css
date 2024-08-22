@@ -1,5 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2vh;
+    color: white;
+    background-color: black;
+  }
+
+  header{
+    text-align: center;
+    align-content: center;
+    height: 4vh;
+  }
+
+  main{
+    height: 90vh;
+    display: block;
+  }
+
+  .imgPrincipal{
+    max-width: 100%; /* La imagen nunca será más ancha que su contenedor */
+    height: 30vh;
+    object-fit: cover;
+  }
+
+  .textoIntro{
+    display: flex;
+    justify-content: space-between;
+    height: 20vh;
+    
+  }
+
+  .texto1{
+    display: block;
+    
+  }
+
+  .iguana1{
+    height: 10vh;
+  }
+  
+  .caracteristicas{
+    height: 20vh;
+    text-align: center;
+    background-color: rgb(51, 59, 19);
+  }
+
+  .caracteristicas > h2{
+    background-color: rgb(51, 59, 19);
+    padding-top: 2vh;
+    margin-bottom: 4vh;
+  }
+
+  .cards{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2vh;
+    background-color: rgb(51, 59, 19);
+  }
+
+  .card{
+    background-color: rgb(51, 59, 19);
+  }
+
+  .card > p{
+    margin-top: 2vh;
+    background-color: rgb(51, 59, 19);
+  }
+  
+  .card > i{
+    background-color: rgb(51, 59, 19);
+  }
+
+  .galeria{
+    height: 20vh;
+    display: flex;
+    justify-content: space-evenly;
+
+  }
+
+  .galeria > img{
+    max-width: 25%; /* La imagen nunca será más ancha que su contenedor */
+    height: auto;
+    margin: 2vh 0 2vh 0;
+  }
+
+  footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6vh;
+    background-color: rgb(51, 59, 19);
+  }
+  footer > p{
+    background-color: rgb(51, 59, 19);
   }
