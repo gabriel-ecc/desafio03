@@ -10,41 +10,50 @@
     background-color: black;
   }
 
-  header{
+ header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 40vh;
+  }
+
+  header > h1 {
     text-align: center;
-    align-content: center;
-    height: 4vh;
+    font-size: 3vh;
+  }
+  header > img{
+    height: 37vh;
   }
 
   main{
-    height: 90vh;
-    display: block;
-  }
-
-  .imgPrincipal{
-    max-width: 100%; /* La imagen nunca será más ancha que su contenedor */
-    height: 30vh;
-    object-fit: cover;
+    height: 54vh;
+    position: relative;
   }
 
   .textoIntro{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    flex-direction: row;
     height: 20vh;
-    
   }
 
   .texto1{
-    display: block;
-    
+    margin: 2vh;
+  }
+
+  .texto1 > p {
+    font-size: 1.2vh;
+    margin: 1vh;
   }
 
   .iguana1{
-    height: 10vh;
+    margin: 2vh 5vh 0 0;
+    width: 20vh;
+    height: 14vh;
   }
   
   .caracteristicas{
-    height: 20vh;
+    height: 15vh;
     text-align: center;
     background-color: rgb(51, 59, 19);
   }
@@ -52,7 +61,6 @@
   .caracteristicas > h2{
     background-color: rgb(51, 59, 19);
     padding-top: 2vh;
-    margin-bottom: 4vh;
   }
 
   .cards{
@@ -83,9 +91,9 @@
   }
 
   .galeria > img{
-    max-width: 25%; /* La imagen nunca será más ancha que su contenedor */
-    height: auto;
-    margin: 2vh 0 2vh 0;
+    width: 20vh;
+    height: 12vh;
+    margin: 4vh 0 4vh 0;
   }
 
   footer{
